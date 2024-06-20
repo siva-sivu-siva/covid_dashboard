@@ -1,0 +1,217 @@
+.nav-div {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: #1e1e30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 80px;
+}
+.nav-navigation-div {
+  display: flex;
+  align-items: center;
+}
+.light-mode-icon {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.covid-logo {
+  position: static;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #f8fafc;
+}
+.home-about-btn-div {
+  position: static;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.home-navigation {
+  position: static;
+  height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+  border: 0 solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.home-navigation:hover {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 600;
+}
+.about-navigation {
+  position: static;
+  height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+  border: 0 solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.about-navigation:hover {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.under-line {
+  text-decoration: none;
+}
+.threeBars {
+  display: none;
+}
+.three-bar-btn {
+  left: 10;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0 solid transparent;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .nav-div {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .home-about-btn-div {
+    display: none;
+  }
+
+  .threeBars {
+    display: flex;
+    order: 2;
+  }
+  .light-mode-icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+  .covid-logo {
+    font-size: 20px;
+  }
+  .home-navigation2 {
+    width: 43px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #94a3b8;
+    border: 0 solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .about-navigation2 {
+    width: 43px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #94a3b8;
+    border: 0 solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .cross-logo {
+    color: #ffffff;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+  }
+  .dark-cross-logo {
+    color: #000000;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-div {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 70px;
+  }
+  .home-about-btn-div {
+    width: 150px;
+    display: flex;
+  }
+  .home-navigation {
+    margin-right: 10px;
+  }
+  .about-navigation {
+    margin-left: 10px;
+  }
+  .light-mode-icon {
+    height: 35px;
+    width: 35px;
+  }
+  .threeBars {
+    display: none;
+    order: 2;
+  }
+  .covid-logo {
+    font-size: 30px;
+    left: 0;
+  }
+}
+
+.pop-up {
+  position: sticky;
+  top: 90px;
+  margin-top: 20px;
+  width: 90%;
+  height: 30px;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.hide-pop-up {
+  display: none;
+}
+
+.header-list-container{
+  padding-left: 0;
+  list-style-type: none;
+}
